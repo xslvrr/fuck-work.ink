@@ -1,5 +1,5 @@
 (function() {
-    const POLL_INTERVAL = 5;
+    const POLL_INTERVAL = 1;
   
     const clickIfExists = (selector, name) => {
       const el = document.querySelector(selector);
