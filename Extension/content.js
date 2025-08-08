@@ -1,5 +1,5 @@
 (function() {
-    const POLL_INTERVAL = 10;
+    const POLL_INTERVAL = 10; // lower value = quicker clicks = more likely to instant skip, lower values may impact performance.
   
     const clickIfExists = (selector, name) => {
       const el = document.querySelector(selector);
