@@ -1,5 +1,14 @@
 ## ‼️‼️ YOU NEED TO BE LOGGED OUT OF WORK.INK FOR IT TO WORK ‼️‼️
 Not a bypass since it just does the steps extremely quick, needs you to be logged out due to how the process works.
+### How to install it
+1. Click on Extension.zip (or the extension folder if you don't trust me, you'll have to repeat the next step on all 3 files though).
+2. You should see a download icon right under history on the rightside of the screen, click it and you will have downloaded the extension.
+3. If you installed the zip, double click to unzip it in your file manager. If you downloaded all 3 files independently, create a folder and put the files inside of it.
+4. Go to your browser go to the URL: chrome://extensions
+5. In the very top right there should be a "Developer mode" toggle, enable it.
+6. There should now be a "Load unpacked" button in the top left, click on it and it should bring up a file selector.
+7. Single click on the folder with all the extension files in it then confirm your choice.
+8. You're done! If you did all steps correctly, extension should now be ready to use on any Work.ink links.
 ### How it works
 1. background.js replicates the verification which the extension provides, effectively tricking the site into thinking you installed their malicious extension.
 2. content.js constantly checks for when buttons appear (you may need to do cloudflare verification yourself).
