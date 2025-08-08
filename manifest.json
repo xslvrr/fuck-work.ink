@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Work.ink Bypass",
+  "version": "1.0",
+  "description": "Spoof work.ink extension checks, skips timers, auto-click destination. *Probably* still pays link owners.",
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "externally_connectable": {
+    "matches": [
+      "*://*.work.ink/*"
+    ]
+  }
+}
