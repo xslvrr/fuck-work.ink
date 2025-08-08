@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Work.ink Bypass",
+  "name": "Work.ink Automation",
   "version": "1.0",
   "description": "Spoof work.ink extension checks, skips timers, auto-click destination. *Probably* still pays link owners.",
   "permissions": [
